@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Fleur+De+Leah&display=swap');
+
+:root {
+    --bgCol: lavender;
+}
+body {
+    background: rgba(230, 230, 250, 0.8) url('/images/wollaton-park-4938032.jpg');
+    background-size: cover;
+    background-blend-mode: lighten;
+    margin: 0;
+    padding: 0;
+}
+header {
+    margin: 0;
+    padding: 0;
+    top: 0;
+    left: 0;
+    background: gainsboro;
+}
+h1 {
+    font-family: Fleur De Leah;
+    font-size: 3rem;
+    text-align: center;
+    color: darkslateblue;
+}
