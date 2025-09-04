@@ -1,25 +1,56 @@
 @import url('https://fonts.googleapis.com/css2?family=Fleur+De+Leah&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quintessential&display=swap');
 
 :root {
-    --bgCol: lavender;
+    --midnightWhite: #F1F5F9;
+    --onyx: #101828;
+    --onyxGlow: #364153;
 }
 body {
-    background: rgba(230, 230, 250, 0.8) url('/images/wollaton-park-4938032.jpg');
+    background: var(--midnightWhite) url('/images/black-castle.jpg');
     background-size: cover;
     background-blend-mode: lighten;
     margin: 0;
     padding: 0;
+    color: var(--onyx);
+    text-shadow: 0 0 0.5rem var(--onyxGlow);
 }
 header {
-    margin: 0;
+    display: grid;
+    grid-template-columns: repeat(1fr, 3);
+    margin: 0em 1rem 1rem 3rem;
     padding: 0;
     top: 0;
     left: 0;
-    background: gainsboro;
 }
 h1 {
     font-family: Fleur De Leah;
-    font-size: 3rem;
-    text-align: center;
-    color: darkslateblue;
+    font-size: 4rem;
+    color: var(--onyx);
+    text-shadow: 0 0 1rem var(--amberGlow);
+    margin-bottom: 0;
+    padding: 0;
+}
+h3 {
+    font-family: Quintessential;
+    font-weight: lighter;
+    grid-column: 1 / 2;
+    padding: 0;
+    margin-top: 0;
+    margin-left: 2rem;
+    text-shadow: 0 0 1rem var(--amberGlow);
+}
+nav {
+    grid-column: 2 / 4;
+    display: flex;
+    flex-flow: row no-wrap;
+    justify-content: space-between;
+    margin-right: 3rem;
+}
+nav a {
+    font-family: Quintessential;
+    font-size: 1.3rem;
+    color: var(--lightAmber);
+    text-shadow: 0 0 1rem var(--amberGlow);
+    text-decoration: none;
 }
