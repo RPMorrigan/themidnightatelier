@@ -7,7 +7,7 @@
     --onyxGlow: #364153;
 }
 body {
-    background: var(--midnightWhite) url('/images/black-castle.jpg');
+    background: var(--midnightWhite) url('../images/black-castle.jpg');
     background-size: cover;
     background-blend-mode: lighten;
     margin: 0;
